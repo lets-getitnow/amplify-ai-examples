@@ -11,11 +11,11 @@ import {
 } from "@aws-amplify/ui-react";
 import {
   LuCheck,
-  LuMoreVertical,
   LuPencil,
   LuTrash2,
   LuX,
 } from "react-icons/lu";
+import { LuMoveVertical } from 'react-icons/lu'
 
 import { ConversationsContext } from "@/providers/ConversationsProvider";
 import { Conversation } from "@/client";
@@ -85,7 +85,7 @@ export const ConversationItem = ({
         size="small"
         trigger={
           <MenuButton size="small">
-            <LuMoreVertical />
+            <LuMoveVertical />
           </MenuButton>
         }
       >
